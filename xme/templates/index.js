@@ -1,0 +1,1 @@
+export default Ember.Handlebars.compile("{{link-to \'Edit this photo\' \'program\'  class=\"btn btn-primary\"}}\n<div>\n  {{file-input action=\"addUsersFromXML\"}}\n</div>\n\n{{view \"list-item\" contentBinding=\"content\"}}\n\n\n");
